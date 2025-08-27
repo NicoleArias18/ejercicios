@@ -62,11 +62,12 @@ const rl = readline.createInterface ({
 //})
 
 // 4.	Un edificio tiene 10 habitaciones por piso. El usuario ingreso el número de habitaciones en el que se encuentra (ejemplo: habitación 25). El programa debe calcular y mostrar en qué piso está. Deberá pedir el número de la habitación, dividir el número de habitaciones entre 10 y redondear hacia arriba y mostrar el piso correspondiente.
-rl.question('Ingrese un numero de habitacion: ', (num)=>{
-let habitacion = Number(num)
-let piso = Math.ceil(habitacion/ 10)
-console.log(`El piso corrrespondiente es ${piso}`)
-rl.close()
+// rl.question('Ingrese un numero de habitacion: ', (num)=>{
+// let habitacion = Number(num)
+// let piso = Math.ceil(habitacion/ 10)
+// console.log(`El piso corrrespondiente es ${piso}`)
+// rl.close()
 
 
-})
+// })
+
